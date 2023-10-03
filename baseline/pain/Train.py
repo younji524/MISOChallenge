@@ -115,5 +115,6 @@ pred = model.predict(X_test)
 # Save Prediction
 np.save('../result/predict/predict.npy', pred)
 
+# Check file
 pred[0]
 y_test[0]
